@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageview_logo_login"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ci"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_email_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR EMAIL"
+        android:textColorHint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/edittext_password_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR PASSWORD"
+        android:textColorHint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/icon_password"
+        android:drawablePadding="5dp"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN NOW"
+        android:textColor="#000000"
+        android:backgroundTint="#ffd700"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textview_toregister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="NOT A USER? REGISTER NOW"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
