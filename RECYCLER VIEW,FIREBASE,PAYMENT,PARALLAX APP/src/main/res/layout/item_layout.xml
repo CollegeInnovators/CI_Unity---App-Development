@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="#ffffff">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/dplayout"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#FFFBF2">
+
+            <ImageView
+                android:id="@+id/dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ci_logo"
+                android:layout_marginLeft="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/friendName"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:text="College Innovators"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/dplayout"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            />
+        
+        <TextView
+            android:id="@+id/friendMessage"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Hi, how have you been?"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/dplayout"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/friendName"/>
+
+        <TextView
+            android:id="@+id/FriendTime"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="10:00 AM"
+            android:textSize="12sp"
+            android:layout_toRightOf="@id/friendName"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

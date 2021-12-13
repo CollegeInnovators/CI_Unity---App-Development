@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseTrialActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR TEXT"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
+        android:id="@+id/messagefirebase"/>
+
+    <Button
+        android:id="@+id/sendmessagefirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"/>
+
+    <Button
+        android:id="@+id/readmessagefirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="READ"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="UPDATE"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:text="DELETE"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/readdatatextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REPLACE TEXT"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
